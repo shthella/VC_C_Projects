@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmylibrary.a CMakeFiles/mylibrary.dir/admin.c.o CMakeFiles/mylibrary.dir/customer.c.o CMakeFiles/mylibrary.dir/debug.c.o CMakeFiles/mylibrary.dir/header_file.c.o CMakeFiles/mylibrary.dir/display_menu.c.o CMakeFiles/mylibrary.dir/display_restaurants.c.o
+/usr/bin/ranlib libmylibrary.a
