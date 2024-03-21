@@ -1,0 +1,4 @@
+/home/admin1/Documents/resta (copy)/Server/build/CMakeFiles/mylibrary.dir
+/home/admin1/Documents/resta (copy)/Server/build/CMakeFiles/server.dir
+/home/admin1/Documents/resta (copy)/Server/build/CMakeFiles/edit_cache.dir
+/home/admin1/Documents/resta (copy)/Server/build/CMakeFiles/rebuild_cache.dir

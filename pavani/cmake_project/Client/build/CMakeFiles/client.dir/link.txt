@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/client.dir/main.c.o CMakeFiles/client.dir/add_item.c.o CMakeFiles/client.dir/display_order_history.c.o CMakeFiles/client.dir/place_order.c.o CMakeFiles/client.dir/remove_item.c.o CMakeFiles/client.dir/update_item.c.o CMakeFiles/client.dir/clear_input_buffer.c.o -o client  libmylibrary.a /usr/lib/x86_64-linux-gnu/libsqlite3.so 
