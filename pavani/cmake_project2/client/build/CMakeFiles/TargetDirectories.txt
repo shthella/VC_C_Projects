@@ -1,0 +1,4 @@
+/home/admin1/Documents/cmake_project2/client/build/CMakeFiles/mylibrary.dir
+/home/admin1/Documents/cmake_project2/client/build/CMakeFiles/client.dir
+/home/admin1/Documents/cmake_project2/client/build/CMakeFiles/edit_cache.dir
+/home/admin1/Documents/cmake_project2/client/build/CMakeFiles/rebuild_cache.dir

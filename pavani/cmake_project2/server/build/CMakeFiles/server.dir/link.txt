@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/server.dir/main.c.o CMakeFiles/server.dir/admin_s.c.o CMakeFiles/server.dir/customer_s.c.o -o server  libmylibrary.a /usr/lib/x86_64-linux-gnu/libsqlite3.so 

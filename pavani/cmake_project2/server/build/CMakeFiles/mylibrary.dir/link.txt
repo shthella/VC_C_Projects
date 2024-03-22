@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmylibrary.a CMakeFiles/mylibrary.dir/debug.c.o CMakeFiles/mylibrary.dir/display_menu.c.o
+/usr/bin/ranlib libmylibrary.a
