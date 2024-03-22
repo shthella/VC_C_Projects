@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/cpp_test.dir/test.c.o CMakeFiles/cpp_test.dir/addrest.c.o CMakeFiles/cpp_test.dir/T1.c.o -o cpp_test  /usr/lib/x86_64-linux-gnu/libsqlite3.so 

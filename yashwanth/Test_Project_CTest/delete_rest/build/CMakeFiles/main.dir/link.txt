@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/main.dir/test.c.o CMakeFiles/main.dir/delete_rest.c.o CMakeFiles/main.dir/T6.c.o -o main  /usr/lib/x86_64-linux-gnu/libsqlite3.so 

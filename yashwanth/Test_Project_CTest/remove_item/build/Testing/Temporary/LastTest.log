@@ -1,0 +1,31 @@
+Start testing: Mar 21 15:39 IST
+----------------------------------------------------------
+1/1 Testing: cpp_test
+1/1 Test: cpp_test
+Command: "/home/admin1/Downloads/Test_Project/remove_item/build/cpp_test"
+Directory: /home/admin1/Downloads/Test_Project/remove_item/build
+"cpp_test" start time: Mar 21 15:39 IST
+Output:
+----------------------------------------------------------
+Tables created successfully
+Item not found in the database
+Test case T1_1 - failed>>
+Item not found in the database
+Test case T1_2 - failed>>
+Item not found in the database
+Test case T1_3 - failed>>
+Item not found in the database
+Test case T1_4 - failed>>
+Item not found in the database
+Test case T1_5 - failed>>
+Item not found in the database
+Test case T1_6 - failed>>
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"cpp_test" end time: Mar 21 15:39 IST
+"cpp_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 21 15:39 IST

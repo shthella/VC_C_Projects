@@ -1,0 +1,5 @@
+/home/admin1/Downloads/Test_Project/delete_rest/build/CMakeFiles/main.dir
+/home/admin1/Downloads/Test_Project/delete_rest/build/CMakeFiles/cpp_test.dir
+/home/admin1/Downloads/Test_Project/delete_rest/build/CMakeFiles/test.dir
+/home/admin1/Downloads/Test_Project/delete_rest/build/CMakeFiles/edit_cache.dir
+/home/admin1/Downloads/Test_Project/delete_rest/build/CMakeFiles/rebuild_cache.dir

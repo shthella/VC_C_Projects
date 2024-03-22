@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/main.dir/test.c.o CMakeFiles/main.dir/add_order.c.o CMakeFiles/main.dir/T5.c.o -o main  /usr/lib/x86_64-linux-gnu/libsqlite3.so 

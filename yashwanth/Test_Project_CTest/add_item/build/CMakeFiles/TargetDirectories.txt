@@ -1,0 +1,5 @@
+/home/admin1/Downloads/Test_Project/add_item/build/CMakeFiles/main.dir
+/home/admin1/Downloads/Test_Project/add_item/build/CMakeFiles/cpp_test.dir
+/home/admin1/Downloads/Test_Project/add_item/build/CMakeFiles/test.dir
+/home/admin1/Downloads/Test_Project/add_item/build/CMakeFiles/edit_cache.dir
+/home/admin1/Downloads/Test_Project/add_item/build/CMakeFiles/rebuild_cache.dir

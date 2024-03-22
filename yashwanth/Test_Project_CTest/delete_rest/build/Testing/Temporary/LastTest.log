@@ -1,0 +1,21 @@
+Start testing: Mar 21 15:33 IST
+----------------------------------------------------------
+1/1 Testing: cpp_test
+1/1 Test: cpp_test
+Command: "/home/admin1/Downloads/Test_Project/delete_rest/build/cpp_test"
+Directory: /home/admin1/Downloads/Test_Project/delete_rest/build
+"cpp_test" start time: Mar 21 15:33 IST
+Output:
+----------------------------------------------------------
+Tables created successfully
+Test case TID1_1 - failed
+Test case TID1_2 - failed
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"cpp_test" end time: Mar 21 15:33 IST
+"cpp_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 21 15:33 IST
