@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/linux/moduleParameter/moduleParameter.mod := printf '%s\n'   moduleParameter.o | awk '!x[$$0]++ { print("/home/admin1/linux/moduleParameter/"$$0) }' > /home/admin1/linux/moduleParameter/moduleParameter.mod
