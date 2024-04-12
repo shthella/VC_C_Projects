@@ -1,0 +1,1 @@
+cmd_/home/dinesh/Downloads/dd/sysfs/sys_fs.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/dinesh/Downloads/dd/sysfs/sys_fs.ko /home/dinesh/Downloads/dd/sysfs/sys_fs.o /home/dinesh/Downloads/dd/sysfs/sys_fs.mod.o;  true

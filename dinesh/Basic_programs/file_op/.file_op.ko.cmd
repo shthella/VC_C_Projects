@@ -1,0 +1,1 @@
+cmd_/home/dinesh/Downloads/dd/file_op/file_op.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/dinesh/Downloads/dd/file_op/file_op.ko /home/dinesh/Downloads/dd/file_op/file_op.o /home/dinesh/Downloads/dd/file_op/file_op.mod.o;  true

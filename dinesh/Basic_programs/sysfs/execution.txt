@@ -1,0 +1,45 @@
+dinesh@dinesh-HP-Laptop-15s-dr1xxx:~/Downloads/dd/sysfs$ sudo insmod sys_fs.ko
+[sudo] password for dinesh: 
+insmod: ERROR: could not insert module sys_fs.ko: File exists
+dinesh@dinesh-HP-Laptop-15s-dr1xxx:~/Downloads/dd/sysfs$ sudo rmmod sys_fs.ko
+dinesh@dinesh-HP-Laptop-15s-dr1xxx:~/Downloads/dd/sysfs$ sudo insmod sys_fs.ko
+dinesh@dinesh-HP-Laptop-15s-dr1xxx:~/Downloads/dd/sysfs$ ls -l /sys/kernel
+total 0
+drwxr-xr-x   2 root root    0 Mar 30 22:31 boot_params
+drwxr-xr-x   2 root root    0 Mar 30 22:31 btf
+drwxr-xr-x   2 root root    0 Mar 30 22:31 cgroup
+drwxr-xr-x   3 root root    0 Mar 30 22:06 config
+drwx------  43 root root    0 Mar 30 22:06 debug
+drwxr-xr-x   2 root root    0 Mar 30 22:41 etx_sysfs
+-r--r--r--   1 root root 4096 Mar 30 22:31 fscaps
+drwxr-xr-x   2 root root    0 Mar 30 22:31 iommu_groups
+drwxr-xr-x  42 root root    0 Mar 30 22:31 irq
+-r--r--r--   1 root root 4096 Mar 30 22:31 kexec_crash_loaded
+-rw-r--r--   1 root root 4096 Mar 30 22:31 kexec_crash_size
+-r--r--r--   1 root root 4096 Mar 30 22:31 kexec_loaded
+drwxr-xr-x   2 root root    0 Mar 30 22:31 livepatch
+drwxr-xr-x   7 root root    0 Mar 30 22:06 mm
+-r--r--r--   1 root root  492 Mar 30 22:31 notes
+-r--r--r--   1 root root 4096 Mar 30 22:31 oops_count
+-rw-r--r--   1 root root 4096 Mar 30 22:31 profiling
+-rw-r--r--   1 root root 4096 Mar 30 22:31 rcu_expedited
+-rw-r--r--   1 root root 4096 Mar 30 22:31 rcu_normal
+drwxr-xr-x   4 root root    0 Mar 30 22:06 security
+drwxr-xr-x 149 root root    0 Mar 30 22:06 slab
+drwxr-xr-x   3 root root    0 Mar 30 22:07 software_nodes
+dr-xr-xr-x   2 root root    0 Mar 30 22:07 tracing
+-rw-r--r--   1 root root 4096 Mar 30 22:06 uevent_helper
+-r--r--r--   1 root root 4096 Mar 30 22:31 uevent_seqnum
+-r--r--r--   1 root root 4096 Mar 30 22:31 vmcoreinfo
+-r--r--r--   1 root root 4096 Mar 30 22:31 warn_count
+dinesh@dinesh-HP-Laptop-15s-dr1xxx:~/Downloads/dd/sysfs$ ls -l /sys/kernel/etx_sysfs
+total 0
+-rw-rw---- 1 root root 4096 Mar 30 22:44 etx_value
+dinesh@dinesh-HP-Laptop-15s-dr1xxx:~/Downloads/dd/sysfs$ cat /sys/kernel/etx_sysfs/etx_value
+cat: /sys/kernel/etx_sysfs/etx_value: Permission denied
+dinesh@dinesh-HP-Laptop-15s-dr1xxx:~/Downloads/dd/sysfs$ sudo cat /sys/kernel/etx_sysfs/etx_value
+0dinesh@dinesh-HP-Laptop-15s-dr1xxx:~/Downloads/dd/sysfs$ sudo su
+root@dinesh-HP-Laptop-15s-dr1xxx:/home/dinesh/Downloads/dd/sysfs# echo 123 > /sys/kernel/etx_sysfs/etx_value
+root@dinesh-HP-Laptop-15s-dr1xxx:/home/dinesh/Downloads/dd/sysfs# sudo cat /sys/kernel/etx_sysfs/etx_value
+123root@dinesh-HP-Laptop-15s-dr1xxx:/home/dinesh/Downloads/dd/sysfs# exit
+

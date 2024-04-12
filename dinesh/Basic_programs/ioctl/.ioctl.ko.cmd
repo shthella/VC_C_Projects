@@ -1,0 +1,1 @@
+cmd_/home/dinesh/Downloads/dd/ioctl/ioctl.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/dinesh/Downloads/dd/ioctl/ioctl.ko /home/dinesh/Downloads/dd/ioctl/ioctl.o /home/dinesh/Downloads/dd/ioctl/ioctl.mod.o;  true
