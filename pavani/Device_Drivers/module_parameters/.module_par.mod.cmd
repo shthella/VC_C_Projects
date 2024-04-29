@@ -1,0 +1,1 @@
+cmd_/home/admin1/Downloads/devdri/module_parameters/module_par.mod := { echo  /home/admin1/Downloads/devdri/module_parameters/module_par.o;  echo; } > /home/admin1/Downloads/devdri/module_parameters/module_par.mod

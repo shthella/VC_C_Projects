@@ -1,0 +1,1 @@
+cmd_/home/admin1/Downloads/devdri/module_parameters/module_par.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/admin1/Downloads/devdri/module_parameters/module_par.ko /home/admin1/Downloads/devdri/module_parameters/module_par.o /home/admin1/Downloads/devdri/module_parameters/module_par.mod.o;  true

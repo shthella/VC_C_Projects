@@ -1,0 +1,1 @@
+cmd_/home/admin1/Downloads/devdri/sample/sample.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/admin1/Downloads/devdri/sample/sample.ko /home/admin1/Downloads/devdri/sample/sample.o /home/admin1/Downloads/devdri/sample/sample.mod.o;  true
