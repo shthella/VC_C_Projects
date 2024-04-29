@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/Downloads/devdri/hello/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/admin1/Downloads/devdri/hello/"$$0) }' > /home/admin1/Downloads/devdri/hello/hello.mod

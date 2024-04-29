@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/Downloads/devdri/ioctl/chardev.mod := printf '%s\n'   chardev.o | awk '!x[$$0]++ { print("/home/admin1/Downloads/devdri/ioctl/"$$0) }' > /home/admin1/Downloads/devdri/ioctl/chardev.mod

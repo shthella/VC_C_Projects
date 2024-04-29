@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/Downloads/devdri/module_parameters/module_p.mod := printf '%s\n'   module_p.o | awk '!x[$$0]++ { print("/home/admin1/Downloads/devdri/module_parameters/"$$0) }' > /home/admin1/Downloads/devdri/module_parameters/module_p.mod

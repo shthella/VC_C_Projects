@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/Downloads/devdri/hello/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/admin1/Downloads/devdri/hello/Module.symvers -T /home/admin1/Downloads/devdri/hello/modules.order -i Module.symvers -e 
