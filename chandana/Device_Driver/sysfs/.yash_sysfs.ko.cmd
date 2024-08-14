@@ -1,0 +1,1 @@
+savedcmd_/home/admin1/Downloads/sysfs/yash_sysfs.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/admin1/Downloads/sysfs/yash_sysfs.ko /home/admin1/Downloads/sysfs/yash_sysfs.o /home/admin1/Downloads/sysfs/yash_sysfs.mod.o;  make -f ./arch/x86/Makefile.postlink /home/admin1/Downloads/sysfs/yash_sysfs.ko
